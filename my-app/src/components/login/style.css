@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+
+.login-base-container{
+    position: absolute;
+    width: 469px;
+    height: 340px;
+    left: 144px;
+    top: 270px;
+}
+
+.register-base-container{
+    position: absolute;
+    width: 756px;
+    height: 982px;
+    left: 756px;
+    background: #FEC5BB;
+}
+
+.header{
+    font-family: 'Gaegu', cursive;
+    font-size: 72px;
+}
+.register-header{
+    position: relative;
+    top: 360px;
+    font-family: 'Gaegu', cursive;
+    font-size: 72px;
+    color: #FFFFFF;
+
+}
+
+.register-content{
+    position: relative;
+    top: 355px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+input{
+    font-family: 'Gaegu', cursive;
+    font-size: 18px;
+    color: #948A8A;
+    width: 469px;
+    height: 54px;
+    background: #F8EDEB;
+    border-radius: 11px;
+    border: 0;
+    margin-top: 20px;
+    padding: 0px 10px;
+    margin-bottom: 17px;
+}
+
+.loginbtn{
+    font-family: 'Gaegu', cursive;
+    position: absolute;
+    width: 489px;
+    height: 54px;
+    left: 0px;
+    top: 310px;
+    background: #FEC5BB;
+    border-radius: 11px;
+    border: 0;
+}
+
+.registerbtn{
+    font-family: 'Gaegu', cursive;
+    position: absolute;
+    width: 489px;
+    height: 54px;
+    left: 120px;
+    top: 470px;
+    background: #F8EDEB;
+    border-radius: 11px;
+    border: 0;
+}
