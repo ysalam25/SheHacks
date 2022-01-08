@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+import {Login, Register} from "./components/login/index"
+import React, { Component }  from 'react';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">Connecting Women in STEM
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           <code>SheHacks 2022</code> 
         </p>
@@ -16,6 +16,8 @@ function App() {
           Create Profile
         </a>
       </header>
+      <Login/>
+      <Register/>
     </div>
   );
 }
