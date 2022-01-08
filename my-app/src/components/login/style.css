@@ -6,7 +6,7 @@
     width: 469px;
     height: 340px;
     left: 144px;
-    top: 190px;
+    top: 210px;
     justify-content: center;
 }
 
@@ -55,7 +55,7 @@ input{
     border: 0;
     margin-top: 10px;
     padding: 0px 20px;
-    margin-bottom: 17px;
+    margin-bottom: 10px;
 }
 
 input[type="newUsername"]{
@@ -71,11 +71,12 @@ input[type="newPassword"]{
     width: 489px;
     height: 54px;
     left: 0px;
-    top: 310px;
+    top: 280px;
     background: #FEC5BB;
     border-radius: 11px;
     border: 0;
     font-size: 20px;
+    
 }
 
 .registerbtn{
@@ -85,7 +86,7 @@ input[type="newPassword"]{
     height: 54px;
     left: 0px;
     top: 40px;
-    background: #D8E2DC;
+    background: #ffd6b9;
     border-radius: 11px;
     border: 0;
     font-size: 20px;
