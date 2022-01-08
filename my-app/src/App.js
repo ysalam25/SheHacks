@@ -4,18 +4,16 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header">Connecting Women in STEM
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <code>SheHacks 2022</code> 
         </p>
         <a
           className="App-link"
           href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
         >
-          Learn React
+          Create Profile
         </a>
       </header>
     </div>
