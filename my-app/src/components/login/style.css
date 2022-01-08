@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 .login-base-container{
     position: absolute;
     width: 469px;
     height: 340px;
     left: 144px;
-    top: 270px;
+    top: 190px;
+    justify-content: center;
 }
 
 .register-base-container{
@@ -14,6 +16,7 @@
     height: 982px;
     left: 756px;
     background: #FEC5BB;
+    justify-items: center;
 }
 
 .header{
@@ -22,7 +25,7 @@
 }
 .register-header{
     position: relative;
-    top: 360px;
+    top: 100px;
     font-family: 'Gaegu', cursive;
     font-size: 72px;
     color: #FFFFFF;
@@ -31,25 +34,35 @@
 
 .register-content{
     position: relative;
-    top: 355px;
+    top: 115px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color: #FFFFFF;
+    font-size: 20px;
+    color: #F8EDEB;
     font-weight: 400;
+    width: 500px;
+    left: 130px;
 }
 
+
 input{
-    font-family: 'Gaegu', cursive;
-    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
     color: #948A8A;
-    width: 469px;
+    width: 450px;
     height: 54px;
     background: #F8EDEB;
     border-radius: 11px;
     border: 0;
-    margin-top: 20px;
-    padding: 0px 10px;
+    margin-top: 10px;
+    padding: 0px 20px;
     margin-bottom: 17px;
+}
+
+input[type="newUsername"]{
+    background: #F8EDEB;
+}
+input[type="newPassword"]{
+    background: #F8EDEB;
 }
 
 .loginbtn{
@@ -62,16 +75,23 @@ input{
     background: #FEC5BB;
     border-radius: 11px;
     border: 0;
+    font-size: 20px;
 }
 
 .registerbtn{
     font-family: 'Gaegu', cursive;
-    position: absolute;
+    position: relative;
     width: 489px;
     height: 54px;
-    left: 120px;
-    top: 470px;
-    background: #F8EDEB;
+    left: 0px;
+    top: 40px;
+    background: #D8E2DC;
     border-radius: 11px;
     border: 0;
+    font-size: 20px;
+}
+
+.register{
+    margin-top: 160px;
+    position: center;
 }

@@ -12,15 +12,15 @@ export class Login extends React.Component {
             <div className="content">
                 <div className="form">
                     <div className="form-group">
-                        <input type="username" name="username" placeholder="Username"></input>
+                        <input type="username" name="username" placeholder="username"></input>
                     </div>
                     <div className="form-group">
-                        <input type="password" name="password" placeholder="Password"></input>
+                        <input type="password" name="password" placeholder="password"></input>
                     </div>
                 </div>
             </div>
             <div className="footer">
-                <button type="button" className="loginbtn">SIGN IN</button>
+                <button type="button" className="loginbtn">sign in!</button>
             </div> 
         </div>
     }
