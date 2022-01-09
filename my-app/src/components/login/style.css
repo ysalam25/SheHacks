@@ -96,3 +96,74 @@ input[type="newPassword"]{
     margin-top: 160px;
     position: center;
 }
+
+.home-header{
+font-family: 'Gaegu', cursive;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+margin-top:50px;
+color: #000000;
+}
+
+.home-content{
+position: absolute;
+
+width: 1503px;
+height: 750px;
+text-align: center;
+background: #FFE5D9;
+}
+
+.profilebtn{
+    font-family: 'Gaegu', cursive;
+    position: absolute;
+width: 333px;
+height: 84px;
+left: 58px;
+top:780px;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 50px;
+
+color: #FFFFFF;
+background: #FEC5BB;
+border-radius: 20px;
+border: 0;
+}
+.editbtn{
+    font-family: 'Gaegu', cursive;
+    position: absolute;
+width: 333px;
+height: 84px;
+left: 436px;
+top:780px;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 50px;
+
+color: #FFFFFF;
+background: #FEC5BB;
+border-radius: 20px;
+border: 0;
+}
+
+.connectbtn{
+    font-family: 'Gaegu', cursive;
+    position: absolute;
+width: 333px;
+height: 84px;
+left: 1100px;
+top:780px;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 50px;
+
+color: #FFFFFF;
+background: #FEC5BB;
+border-radius: 20px;
+border: 0;
+}

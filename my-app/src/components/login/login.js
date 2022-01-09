@@ -1,4 +1,6 @@
 import React from "react";
+import ReactDOM from 'react-dom';
+import {SignIn} from './screens';
 
 export class Login extends React.Component {
 
@@ -20,7 +22,7 @@ export class Login extends React.Component {
                 </div>
             </div>
             <div className="footer">
-                <button type="button" className="loginbtn">sign in!</button>
+                <button type="button" className="loginbtn" onClick={()=> {ReactDOM.render(<SignIn />, document.getElementById('root'))}}>sign in!</button>
             </div> 
         </div>
     }
