@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from 'react-dom';
-import {SignIn} from './screens';
+import {SignIn} from '../screens';
 
 export class Login extends React.Component {
 

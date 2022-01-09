@@ -1,4 +1,4 @@
-import {Login, Register} from "./components/login/index"
+import {Login, Register} from "./components/home/index"
 import React, { Component }  from 'react';
 import './App.css';
 

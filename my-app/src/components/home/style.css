@@ -167,3 +167,22 @@ background: #FEC5BB;
 border-radius: 20px;
 border: 0;
 }
+
+
+.homebtn{
+    font-family: 'Gaegu', cursive;
+    position: absolute;
+width: 333px;
+height: 84px;
+left: 436px;
+top:780px;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 50px;
+
+color: #FFFFFF;
+background: #FEC5BB;
+border-radius: 20px;
+border: 0;
+}

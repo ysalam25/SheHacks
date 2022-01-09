@@ -1,4 +1,4 @@
-import {Login, Register, Home, ProfileSettings, Tags, TrendingTags, PublicProfile, SisterList} from "./index"
+import {Login, Register, Home, ProfileSettings, Tags, PublicProfile, SistersList} from "./home/index"
 import React, { Component }  from 'react';
 
 
@@ -14,7 +14,7 @@ function SignIn(props)
 function SignUp(props){
     return(
         <div className="base-container">
-            <TrendingTags/>
+            <ProfileSettings/>
         </div>
     )
 }
@@ -38,7 +38,7 @@ function EditTags(props){
 function ConnectToSisters(props){
     return(
         <div className="base-container">
-            <SisterList/>
+            <SistersList/>
         </div>
     )
 }

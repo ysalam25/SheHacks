@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from 'react-dom';
-import {SignUp} from './screens';
+import {SignUp} from '../screens';
 
 
 export class Register extends React.Component {
@@ -25,7 +25,7 @@ export class Register extends React.Component {
                 </div>
             
             <div className="footer">
-                <button type="button" className="registerbtn" onClick={()=> {ReactDOM.render(<SignUp />, document.getElementById('root'))}}>sign up!</button>
+                <button type="button" className="registerbtn" onClick={()=> {ReactDOM.render(<SignUp/>, document.getElementById('root'))}}>sign up!</button>
             </div> 
         </div>
     }

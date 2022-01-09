@@ -1,7 +1,7 @@
 import React from "react";
 
 
-export class EditProfile extends React.Component {
+export class ProfileSettings extends React.Component {
 
     constructor(props) {
         super(props);
