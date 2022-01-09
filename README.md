@@ -14,6 +14,6 @@ cd my-app
 npm install
 ```
 
-2. To run the app 
+2. To run the app (You can only run the app when our server is up and runnning) 
 
 ```npm start```
