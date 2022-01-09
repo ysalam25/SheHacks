@@ -1,4 +1,6 @@
 import React from "react";
+import ReactDOM from 'react-dom';
+import {SignIn} from '../screens';
 
 
 export class ProfileSettings extends React.Component {
@@ -32,6 +34,7 @@ export class ProfileSettings extends React.Component {
                     </div>   
                 </div>
                 <div className="edit-footer">
+                    <button type="button" className="homebtn" onClick={()=> {ReactDOM.render(<SignIn />, document.getElementById('root'))}}>home</button>
                 </div>
             
         </div>
