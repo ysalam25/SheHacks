@@ -1,4 +1,4 @@
-import {Login, Register, Home, EditProfile, EditTags, TrendingTags, ViewProfile} from "./index"
+import {Login, Register, Home, ProfileSettings, Tags, TrendingTags, PublicProfile, SisterList} from "./index"
 import React, { Component }  from 'react';
 
 
@@ -14,7 +14,15 @@ function SignIn(props)
 function SignUp(props){
     return(
         <div className="base-container">
-            <EditTags/>
+            <TrendingTags/>
+        </div>
+    )
+}
+
+function EditProfile(props){
+    return(
+        <div className="base-container">
+            <ProfileSettings/>
         </div>
     )
 }
@@ -22,25 +30,25 @@ function SignUp(props){
 function EditTags(props){
     return(
         <div className="base-container">
-            <EditProfile/>
+            <Tags/>
         </div>
     )
 }
 
-function ViewTags(props){
+function ConnectToSisters(props){
     return(
         <div className="base-container">
-            <TrendingTags/>
+            <SisterList/>
         </div>
     )
 }
 
-function ViewTags(props){
+function OpenProfile(props){
     return(
         <div className="base-container">
-            <TrendingTags/>
+            <PublicProfile/>
         </div>
     )
 }
 
-export {SignIn, SignUp, ViewTags,}
+export {SignIn, SignUp, EditProfile, EditTags, ConnectToSisters, OpenProfile}
