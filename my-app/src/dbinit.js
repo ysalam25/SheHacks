@@ -20,7 +20,6 @@ connection.query(`
             console.log('User Table Dropped');
         }
 });
-
 connection.query(`
         DROP TABLE Profile
     `
@@ -29,9 +28,10 @@ connection.query(`
             console.log(error);
         }
         else {
-            console.log('Profile Table Dropped');
+            console.log('Profile table Dropped');
         }
 });
+
 
 connection.query(`
         CREATE TABLE User (
@@ -55,8 +55,8 @@ connection.query(`
             lastName varchar(20),
             email varchar(20),
             university varchar(20),
-            preference varchar(20),
-            photo varchar(20),
+            preference tinyint,
+            photo varchar(500)
     );
     `
     , (error, rows, fields) => {
@@ -69,8 +69,14 @@ connection.query(`
 });
 
 connection.query(`
-        CREATE TABLE BigSisterTag (
-         
+        INSERT INTO Profile VALUES(
+            12345,
+            "Jane",
+            "Doe",
+            "janedoe@gmail.com",
+            "Western University",
+            1,
+            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cute-cat-breeds-russian-blue-1588187842.jpg"
     );
     `
     , (error, rows, fields) => {
@@ -78,23 +84,54 @@ connection.query(`
             console.log(error);
         }
         else {
-            console.log('BigSisterTag Table Created');
+            console.log('Jane Doe Profile Inserted');
         }
 });
 
 connection.query(`
-        CREATE TABLE LittleSisterTag (
-            
-            
-            );
+        INSERT INTO User VALUES(
+            "janedoe2022",
+            "iloveshehacks"
+    );
     `
     , (error, rows, fields) => {
         if (error) {
             console.log(error);
         }
         else {
-            console.log('LittleSisterTag Table Created');
+            console.log('Jane doe user login inserted');
         }
 });
+
+
+
+// connection.query(`
+//         CREATE TABLE BigSisterTag (
+         
+//     );
+//     `
+//     , (error, rows, fields) => {
+//         if (error) {
+//             console.log(error);
+//         }
+//         else {
+//             console.log('BigSisterTag Table Created');
+//         }
+// });
+
+// connection.query(`
+//         CREATE TABLE LittleSisterTag (
+            
+            
+//             );
+//     `
+//     , (error, rows, fields) => {
+//         if (error) {
+//             console.log(error);
+//         }
+//         else {
+//             console.log('LittleSisterTag Table Created');
+//         }
+// });
 
 connection.end();
