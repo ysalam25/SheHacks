@@ -1,8 +1,6 @@
 import React from "react";
-import ReactDOM from 'react-dom';
-import {SignIn} from './screens';
 
-export class Login extends React.Component {
+export class EditProfile extends React.Component {
 
     constructor(props) {
         super(props);
@@ -10,7 +8,7 @@ export class Login extends React.Component {
 
     render() {
         return <div className="login-base-container">
-            <div className="header">Login</div>
+            <div className="header">Edit Information</div>
             <div className="content">
                 <div className="form">
                     <div className="form-group">
@@ -22,10 +20,8 @@ export class Login extends React.Component {
                 </div>
             </div>
             <div className="footer">
-                <button type="button" className="loginbtn" onClick={()=> {ReactDOM.render(<SignIn />, document.getElementById('root'))}}>sign in!</button>
+                <button type="button" className="loginbtn">sign in!</button>
             </div> 
         </div>
     }
-
-    
 }
