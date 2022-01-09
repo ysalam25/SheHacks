@@ -1,5 +1,4 @@
 import {Login, Register} from "./components/login/index"
-import {EditProfile} from "./components/login/editProfile";
 import React, { Component }  from 'react';
 import './App.css';
 
