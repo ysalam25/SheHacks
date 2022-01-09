@@ -65,6 +65,26 @@ input[type="newPassword"]{
     background: #F8EDEB;
 }
 
+input[type="email"]{
+    background: #FAE1DD;
+}
+input[type="text"]{
+    background: #FAE1DD;
+}
+input[type="textEdit"]{
+    background: #E8E8E4;
+}
+input[type="radio"]{
+    position: relative;
+    flex-direction: column;
+    
+
+}
+.show{
+    position: relative;
+    top:-50px;
+
+}
 .loginbtn{
     font-family: 'Gaegu', cursive;
     position: absolute;
@@ -185,4 +205,90 @@ background: #FFE5D9;
     background: #FEC5BB;
     border-radius: 20px;
     border: 0;
+}
+
+.edit-form{
+    position: absolute;
+width: 769px;
+height: 750px;
+left: 0px;
+top: 0px;
+
+background: #F8EDEB;
+
+}
+
+.editform-group{
+
+font-family: 'Gaegu', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 50px;
+text-align: center;
+margin-top: 50px;
+color: #000000;
+}
+
+.edit-form2{
+    position: absolute;
+width: 743px;
+height: 750px;
+left: 769px;
+top: 0px;
+text-align: center;
+background: #D8E2DC;
+}
+
+.photo{
+    position: relative;
+width: 300px;
+height: 300px;
+left: 220px;
+top: 29px;
+
+background: #E8E8E4;
+}
+.editPhoto{
+    position: relative;
+width: 216px;
+height: 50px;
+
+top: 30px;
+
+font-family: Gaegu;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 50px;
+/* identical to box height */
+
+
+color: #948A8A;
+
+}
+.editName{
+    position:relative;
+    border-radius: 20px;
+    width: 488px;
+height: 58px;
+left: 120px;
+top: 30px;
+}
+
+.editNamelbl{
+    width: 217px;
+height: 50px;
+left: 1023px;
+top: 471px;
+
+font-family: Gaegu;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 50px;
+/* identical to box height */
+
+
+color: #948A8A;
 }

@@ -1,12 +1,17 @@
 import React from "react";
 import ReactDOM from 'react-dom';
 import {SignUp} from '../screens';
+//const newConn = require("../DBConnection.js");
 
 
 export class Register extends React.Component {
 
     constructor(props) {
         super(props);
+        this.state = {
+            username: '',
+            password: '',
+        }
     }
 
     render() {
@@ -23,9 +28,14 @@ export class Register extends React.Component {
                         <input type="newPassword" name="newPassword" placeholder="create password"></input>
                     </div>
                 </div>
-            
             <div className="footer">
-                <button type="button" className="registerbtn" onClick={()=> {ReactDOM.render(<SignUp/>, document.getElementById('root'))}}>sign up!</button>
+                <button type="button" className="registerbtn" onClick={()=> {
+                    // let conn = newConn();
+                    // conn.connect();
+                    //     conn.query(`INSERT INTO User values()`)
+                    // conn.end();
+                    ReactDOM.render(<SignUp/>, document.getElementById('root'));
+                    }}>sign up!</button>
             </div> 
         </div>
     }
