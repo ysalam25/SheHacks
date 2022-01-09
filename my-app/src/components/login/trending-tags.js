@@ -13,7 +13,7 @@ export class Home extends React.Component {
                     
                 </div>
                 <div className="home-footer">
-                    <button type="button" className="profilebtn">Profile Settings</button>
+                    <button type="button" className="profilebtn">Edit Profile</button>
                     <button type="button" className="editbtn">Edit Tags</button>
                     <button type="button" className="connectbtn">Connect to Sisters</button>
                 </div>
