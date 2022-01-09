@@ -1,6 +1,6 @@
 import React from "react";
 
-export class Login extends React.Component {
+export class EditProfile extends React.Component {
 
     constructor(props) {
         super(props);
@@ -8,7 +8,7 @@ export class Login extends React.Component {
 
     render() {
         return <div className="login-base-container">
-            <div className="header">Login</div>
+            <div className="header">Edit Information</div>
             <div className="content">
                 <div className="form">
                     <div className="form-group">
@@ -24,6 +24,4 @@ export class Login extends React.Component {
             </div> 
         </div>
     }
-
-    
 }
